@@ -1,14 +1,25 @@
-<p align="center">
-    1. Upload your <b>Netscape format</b> youtube cookies to batbin.me<br>
-    2. Add <code>COOKIES_URL</code> variable in the env and enter the batbin url in the value.<br>
-    <i>Note: (Multiple values should be seperated by " ")</i>
-</p>
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
 
-<p align="center">
-    <b>or</b>
-</p>
-
-<p align="center">
-    Local storage for cookies.<br>
-    The file extension must be .txt and the cookie must be in <b>Netscape format.</b>
-</p>
+.youtube.com	TRUE	/	TRUE	1826178284	__Secure-1PSIDTS	sidts-CjUBnJZzans9eAumNyqRre6rVT-0zYnvczIpP7k0_hH5XhG701IRdSCKrkPW90bnr9JS58LZJxAA
+.youtube.com	TRUE	/	TRUE	1826178284	__Secure-3PSIDTS	sidts-CjUBnJZzans9eAumNyqRre6rVT-0zYnvczIpP7k0_hH5XhG701IRdSCKrkPW90bnr9JS58LZJxAA
+.youtube.com	TRUE	/	FALSE	1829202284	HSID	ARg9TQickK9292K98
+.youtube.com	TRUE	/	TRUE	1829202284	SSID	ANMkkOxniM-v10uBW
+.youtube.com	TRUE	/	FALSE	1829202284	APISID	H_ZmJuRbJnda8fUf/A6HR2J3wkSYHg2Sl4
+.youtube.com	TRUE	/	TRUE	1829202284	SAPISID	DHvE-bl3m73Bfq6C/AEINJPNUfWS_6hmyX
+.youtube.com	TRUE	/	TRUE	1829202284	__Secure-1PAPISID	DHvE-bl3m73Bfq6C/AEINJPNUfWS_6hmyX
+.youtube.com	TRUE	/	TRUE	1829202284	__Secure-3PAPISID	DHvE-bl3m73Bfq6C/AEINJPNUfWS_6hmyX
+.youtube.com	TRUE	/	FALSE	1829202284	SID	g.a000EwnLmQGVa5JWurbMvsxVD26k65yiY4TaRgJPTpKGhVQa2G8enEIXODm8f0IKAfAIFgz5MgACgYKAacSARESFQHGX2MiOS5H-ivoM1NOMoA_mLVYEBoVAUF8yKq-yAyy6o7uuE4I4vruvPvU0076
+.youtube.com	TRUE	/	TRUE	1829202284	__Secure-1PSID	g.a000EwnLmQGVa5JWurbMvsxVD26k65yiY4TaRgJPTpKGhVQa2G8epeMEs9uETivTRJBzX1bcGwACgYKAYUSARESFQHGX2MiM0emTyhOVu4pW5kHo8Z4-BoVAUF8yKpF6KmSMWy2hFtNsmMXE8E70076
+.youtube.com	TRUE	/	TRUE	1829202284	__Secure-3PSID	g.a000EwnLmQGVa5JWurbMvsxVD26k65yiY4TaRgJPTpKGhVQa2G8e-mIE17zHZcL2edQGzrBK6QACgYKATISARESFQHGX2MinIbD4-P0_uk2ZFgENlDAiBoVAUF8yKr5DJIxSAyC81xbxFYXpM1v0076
+.youtube.com	TRUE	/	TRUE	1829202285	LOGIN_INFO	AFmmF2swRAIgLWEhfe5qffA9p-QGImKCgPQNQIUsD26M2L-PiDuJnJUCIAYQFuLub9DWVdgTN_9gei2RWv39WraJz0O6thUUzX6R:QUQ3MjNmekF0ck8tS2lPNXJDcEFKWDJGN0RxLUZMZG9vcS1qMC0zUzhodV90M0NtV044WnRBWXoteEtYT2VZVFhVZWRqMmk0VE9DM1pFckZHUHZUVExoeW5JSFZBanZvRzB3NUluTXdwUDRodnJSSFliSzRuUU83cXpvUk1FOFZZU214NXVOQ1ptSF9qVEZYS2xQcHZ5RWlYNmMyU0dFWXF3
+.youtube.com	TRUE	/	TRUE	1829204515	PREF	f6=40000000&tz=Asia.Bangkok&f7=100
+.youtube.com	TRUE	/	FALSE	1826180519	SIDCC	APD_SKGKFNC0-6Hp283mqqxfROc5hat9hQiOqC471hj8L6ncgJmxCNUEz67kkufdvnax01hz
+.youtube.com	TRUE	/	TRUE	1826180519	__Secure-1PSIDCC	APD_SKEYoa3IbGns85a0eNQSt0z0o8iQSm62OqrptT_IaMyfRt4HbFWD61qXS2gy_WAn5j6M
+.youtube.com	TRUE	/	TRUE	1826180519	__Secure-3PSIDCC	APD_SKGFls9KrYEhzg43zk3Zc7uH6sgmwfmRBKtDd39zXMivdCb6q2LtgG5SrmHSUhjdnFuG
+.youtube.com	TRUE	/	TRUE	1810194219	__Secure-YNID	CtsBCAUSjQEBDB6PDByi3pnUYMMgTKLRSSZh_IJNt5l0mRg5htfHuv32Q4sio65PXErTr4snlLZrF--Ar6tIUVGbmB4pV7lf5AeNuGkzVzTYe15lFYPmVzSbAWDK7WZM6Sxq52onwXiV2FE_e5T7PKzwL5-gLFiDNX9U17VA8iWJCHFg79R7qWYOZNeHdUfWQ5mVAmIoBTJFARxY9WqomV2cCLNwSr8JGPvk2FR8RELA09EX2X4P_nwuXhY9PSbZ0zRcF3RetoyHINVT1D9wRIsF4ZHTg7JwsIx3DpUC
+.youtube.com	TRUE	/	TRUE	0	YSC	8YhX6y833no
+.youtube.com	TRUE	/	TRUE	1810196508	VISITOR_INFO1_LIVE	g2QbZz9MWe4
+.youtube.com	TRUE	/	TRUE	1810196508	VISITOR_PRIVACY_METADATA	CgJUSBIEGgAgKg%3D%3D
+.youtube.com	TRUE	/	TRUE	1810194285	__Secure-ROLLOUT_TOKEN	CKfP8tDOmqPEywEQrr-VoPuGmAMY9ImYv_uGmAM%3D
