@@ -2,14 +2,31 @@
 # Licensed under the MIT License.
 # This file is part of AnonXMusic
 
-
+import os
 import asyncio
 import signal
 import importlib
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
 
 from anony import (anon, app, config, db, logger,
                    stop, thumb, userbot, yt)
 from anony.plugins import all_modules
+
+
+class _HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"Music Bot is running!")
+
+    def log_message(self, format, *args):
+        return
+
+
+def _start_health_server():
+    port = int(os.environ.get("PORT", "8080"))
+    HTTPServer(("0.0.0.0", port), _HealthHandler).serve_forever()
 
 
 async def idle():
@@ -28,7 +45,10 @@ async def idle():
 
     await stop_event.wait()
 
+
 async def main():
+    threading.Thread(target=_start_health_server, daemon=True).start()
+
     await db.connect()
     await app.boot()
     await userbot.boot()
